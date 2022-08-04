@@ -39,14 +39,14 @@ class MoviesViewModelTest {
     }
 
     @Test
-    fun `get movies from db should emit list of movie titles`() = runBlocking {
+    fun getMoviesFromDbShouldEmitListOfMovieTitles() = runBlocking {
         viewModel.getMoviesFromDb()
         verify { observer.onChanged(movieDataList) }
         assertEquals(movieDataList, viewModel.movieEvent.value)
     }
 
     @Test
-    fun `filter movies by genre should return matching genres`() = runBlocking {
+    fun filterMoviesByGenreShouldReturnMatchingGenres() = runBlocking {
         val expectedList = listOf(
             MovieData(
                 id = 0,
@@ -69,7 +69,7 @@ class MoviesViewModelTest {
     }
 
     @Test
-    fun `filter title by name should return matching titles`() = runBlocking {
+    fun filterTitleByNameShouldReturnMatchingTitles() = runBlocking {
         val expectedList = listOf(
             MovieData(
                 id = 1,
@@ -85,7 +85,7 @@ class MoviesViewModelTest {
     }
 
     @Test
-    fun `filter title by name should not return non-matching titles`() = runBlocking {
+    fun filterTitleByNameShouldNotReturnNonMatchingTitles() = runBlocking {
         val expectedList = listOf(
             MovieData(
                 id = 2,

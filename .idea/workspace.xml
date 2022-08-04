@@ -12,7 +12,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b981525-0591-4220-8dfd-968e2251916e" name="Changes" comment="init" />
+    <list default="true" id="5b981525-0591-4220-8dfd-968e2251916e" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/andry/moviesapp/ui/viewmodel/MoviesViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/andry/moviesapp/ui/viewmodel/MoviesViewModelTest.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +87,9 @@
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.ml.moviesapp.ui.home" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.andry.moviesapp" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -315,8 +321,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android Instrumented Tests.Tests in 'com.andry.moviesapp'" />
         <item itemvalue="Gradle.Tests in 'com.andry.moviesapp.ui.viewmodel'" />
+        <item itemvalue="Android Instrumented Tests.Tests in 'com.andry.moviesapp'" />
         <item itemvalue="Android Instrumented Tests.Tests in 'com.ml.moviesapp'" />
         <item itemvalue="Gradle.Tests in 'com.ml.moviesapp.ui.viewmodel'" />
         <item itemvalue="Gradle.Tests in 'com.ml.moviesapp.viewmodel'" />
