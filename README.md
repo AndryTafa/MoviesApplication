@@ -1,5 +1,5 @@
 # MoviesApplication
-Android app that gets data from the heroky api and saves it to a local database every 10 minutes.
+Android app that gets data from the heroku api and saves it to a local database every 10 minutes.
 
 # Tech stack
 - Coroutines
